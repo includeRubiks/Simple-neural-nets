@@ -39,8 +39,8 @@ for i in range(epochs):
 print(f'Output: {output(x,w,b)}') # Print the output
 print(f'w: {w}') # Print the weight
 print(f'b: {b}') # Print the bias
-mpl.plot(l2graph)
-mpl.xlabel('Epoch')
+mpl.plot(l2graph) # Plotting the graph
+mpl.xlabel('Epoch') # Setting labels and titles
 mpl.ylabel('L2')
 mpl.title('L2')
-mpl.show()
+mpl.show() # Showing the graph
